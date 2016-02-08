@@ -71,11 +71,11 @@ if( $image ) {
     				<div class="contactInfo">
     			
 	    				<div class="officeLocation">
-	    					<?php the_field('title'); ?>
+	    					<?php the_field('office'); ?>
 	    				</div>
 	    				
 	    				<div class="officePhone">
-	    					<?php the_field('area_of_study'); ?>
+	    					<?php the_field('phone'); ?>
 	    				</div>
 	    				
 	    				<div class="officeEmail">

@@ -25,15 +25,14 @@ if( $image ) {
 		</div>
 		<div class="facultyMainInfo">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
-		<div><?php the_field('title'); ?></div>
-		<div><?php the_field('area_of_study'); ?></div>
+	
 		
 		
 
 <div class="contactInfo">
     			
 	    				<div class="officeLocation">
-	    					<?php the_field('office_location'); ?>
+	    					<?php the_field('office'); ?>
 	    				</div>
 	    				
 	    				<div class="officePhone">
