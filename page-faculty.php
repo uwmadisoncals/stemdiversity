@@ -10,7 +10,7 @@ get_header(); ?>
 			<div class="cf pagePadding">
 				
 				<?php
-					$member_group_terms = get_terms( 'faculty' );
+					$member_group_terms = get_terms( 'stafftypes' );
 				?>
 				
 				<?php
@@ -20,7 +20,7 @@ get_header(); ?>
 				        'posts_per_page' => '200',
 				        'tax_query' => array(
 				            array(
-				                'taxonomy' => 'faculty',
+				                'taxonomy' => 'stafftypes',
 				                'field' => 'slug',
 				                'terms' => array( $member_group_term->slug ),
 				                'operator' => 'IN'
