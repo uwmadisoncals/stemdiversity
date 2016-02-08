@@ -10,6 +10,10 @@ Version:        0.1.0
 
 @import url("../madisonwp2015/style.css");
 
+.taxonomy_title {
+	margin-bottom: 2em;
+}
+
 .facultyMembers {
 	display: flex;
 	flex-direction: row;
@@ -29,7 +33,6 @@ Version:        0.1.0
 
 .faculty .personPhoto a {
 	display: block;
-	
 }
 
 .faculty .personPhoto a img {
