@@ -44,7 +44,7 @@ get_header(); ?>
 				    				<?php 
 
 $image = get_field('profile_photo');
-$size = 'medium'; // (thumbnail, medium, large, full or custom size)
+$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
 
 if( $image ) {
 
