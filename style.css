@@ -20,14 +20,16 @@ Version:        0.1.0
 }
 
 .faculty {
-	width: 33%;
+	width: 29%;
+	margin-right: 4%;
 	min-height: 100px;
+	margin-bottom: 6%;
 	
 }
 
 .faculty .personPhoto a {
 	display: block;
-	max-height: 100px;
+	max-height: 400px;
 	overflow: hidden;
 }
 
