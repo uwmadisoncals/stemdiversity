@@ -35,4 +35,13 @@ Version:        0.1.0
 
 .faculty .personPhoto a img {
 	width: 100%;
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+}
+
+.faculty .personPhoto a:hover img {
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
 }
