@@ -9,3 +9,18 @@ Version:        0.1.0
 */
 
 @import url("../madisonwp2015/style.css");
+
+.facultyMembers {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	align-items: stretch;
+	
+}
+
+.faculty {
+	width: 33%;
+	min-height: 100px;
+	
+}

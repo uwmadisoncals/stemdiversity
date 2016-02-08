@@ -31,6 +31,7 @@ get_header(); ?>
 				    ?>
 				    <h2 class="taxonomy_title"><?php echo $member_group_term->name; ?></h2>
 				    
+				    <div class="facultyMembers">
 				    <?php
 				    if ( $member_group_query->have_posts() ) : while ( $member_group_query->have_posts() ) : $member_group_query->the_post(); ?>
 				        <div class="faculty">
@@ -109,7 +110,7 @@ if( $image ) {
 				    wp_reset_postdata();
 				}
 				?>
-
+				    </div>
 				
 			
 			</div>
