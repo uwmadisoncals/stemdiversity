@@ -69,4 +69,5 @@ article.faculty .entry-header {
 
 article.faculty .entry-content {
 	flex: 3 1 auto;
+	padding-left: 4em;
 }
