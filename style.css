@@ -11,10 +11,14 @@ Version:        0.1.0
 @import url("../madisonwp2015/style.css");
 
 .taxonomy_title {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
+	font-weight: 300;
+	font-family: "Raleway";
+	color: #C2242A;
+	font-size: 2em;
 }
 
-.facultyMembers {
+div.facultyMembers {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -23,7 +27,7 @@ Version:        0.1.0
 	
 }
 
-.faculty {
+div.faculty {
 	flex: 0 1 auto;
 	width: 21%;
 	margin-right: 4%;
@@ -32,11 +36,11 @@ Version:        0.1.0
 	
 }
 
-.faculty .personPhoto a {
+div.faculty .personPhoto a {
 	display: block;
 }
 
-.faculty .personPhoto a img {
+div.faculty .personPhoto a img {
 	width: 100%;
 	border-radius: 3px;
 	filter: grayscale(1);
@@ -45,9 +49,13 @@ Version:        0.1.0
 	-webkit-transition: 0.4s;
 }
 
-.faculty .personPhoto a:hover img {
+div.faculty .personPhoto a:hover img {
 	filter: grayscale(0);
 	-webkit-filter: grayscale(0);
+}
+
+article.faculty .entry-meta {
+	display: none;
 }
 
 article.faculty {
